@@ -13,7 +13,7 @@ class HomepageController extends AbstractController{
 
 
     public function homepage(): Response{
-    return $this->render('homepage.html.twig');
+    return $this->render('pages/homepage.html.twig');
 }
 }
 
